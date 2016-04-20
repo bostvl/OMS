@@ -6,9 +6,9 @@
 	<session-factory>
 		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
 		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
-		<property name="hibernate.connection.url">jdbc:mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/jenkins</property>
-		<property name="hibernate.connection.username">admin3fxdupk</property>
-		<property name="hibernate.connection.password">td5SmxYQmGdY</property>
+		<property name="hibernate.connection.url">jdbc:mysql://$OPENSHIFT_MYSQL_DB_HOST/jenkins</property>
+		<property name="hibernate.connection.username">$OPENSHIFT_MYSQL_DB_USERNAME</property>
+		<property name="hibernate.connection.password">$OPENSHIFT_MYSQL_DB_PASSWORD</property>
 
 		<property name="hibernate.hbm2ddl.auto">create-drop</property>
 

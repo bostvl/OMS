@@ -16,4 +16,4 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'OMS_github'
+rootProject.name = 'OMS'

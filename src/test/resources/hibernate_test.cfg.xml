@@ -6,8 +6,8 @@
 	<session-factory>
 		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
 		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
-		<property name="hibernate.connection.url">jdbc:mysql://127.2.90.2/omsTEST</property>
-		<property name="hibernate.connection.username">omsTEST</property>
+		<property name="hibernate.connection.url">jdbc:mysql://127.8.149.2/OMS_TEST</property>
+		<property name="hibernate.connection.username">oms</property>
 		<property name="hibernate.connection.password">1q2w3e</property>
 
 		<property name="hibernate.hbm2ddl.auto">create</property>

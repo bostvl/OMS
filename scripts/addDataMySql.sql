@@ -60,3 +60,5 @@ insert into OrderItems(Cost,ItemPrice,Quantity,DimensionRef,OrderRef,ProductRef)
 insert into OrderItems(Cost,ItemPrice,Quantity,DimensionRef,OrderRef,ProductRef) values(10,10,2,1,6,3);
 insert into OrderItems(Cost,ItemPrice,Quantity,DimensionRef,OrderRef,ProductRef) values(10,10,2,3,2,1);
 insert into OrderItems(Cost,ItemPrice,Quantity,DimensionRef,OrderRef,ProductRef) values(10,10,2,2,4,2);
+
+update Users set isUserActive=1;

@@ -1,7 +1,6 @@
 //
 // ProductSortModel
 //
-// 10 вер. 2011
 //
 package com.softserveinc.edu.oms.web.product.model;
 

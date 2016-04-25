@@ -3,7 +3,6 @@
  *
  * Version 1.0
  *
- * 11.07.2011
  *
  * (c) Vitalik Nobis nobisvitaliy@gmail.com
  */

@@ -6,7 +6,7 @@ group = 'com.softserveinc'
 version = '1.0.2'
 
 description = """OMS"""
-
+//project.buildDir = 'target'
 sourceCompatibility = 1.6
 targetCompatibility = 1.6
 
@@ -17,8 +17,10 @@ repositories {
      maven { url "http://maven.springframework.org/snapshot" }
      maven { url "http://maven.springframework.org/milestone" }
 //     maven { url "http://repo.maven.apache.org/maven2" }
-     maven { url "http://repo.maven.apache.org/maven2" 
-              artifactUrls "http://www.datanucleus.org/downloads/maven2" }
+//     maven { url "http://repo.maven.apache.org/maven2" 
+     maven { url "http://192.168.103.206:8081/nexus/content/repositories/Maven2" 
+              artifactUrls "http://192.168.103.206:8081/nexus/content/repositories/Datanucleos" }
+//              artifactUrls "http://www.datanucleus.org/downloads/maven2" }
 //     maven { url "http://192.168.103.206:8081/nexus/content/repositories/Maven2" }
 //     maven { url "http://www.datanucleus.org/downloads/maven2" }
 }

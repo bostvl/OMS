@@ -1,13 +1,3 @@
-/*
- * DimensionService.java
- *
- * version - v1.0
- *
- * 24 серп. 2011 - 10:24:08
- *
- * (c) sh.muro[at]gmail.com
- *
- */
 package com.softserveinc.edu.oms.service.implementation;
 
 import java.util.List;
@@ -22,10 +12,6 @@ import com.softserveinc.edu.oms.persistence.dao.params.DimensionTypesEnum;
 import com.softserveinc.edu.oms.persistence.dao.params.SortProperties;
 import com.softserveinc.edu.oms.service.interfaces.IDimensionService;
 
-/**
- * @author Мирослав
- * 
- */
 @Service
 public class DimensionService implements IDimensionService {
 

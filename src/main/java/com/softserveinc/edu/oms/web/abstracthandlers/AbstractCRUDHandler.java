@@ -3,7 +3,6 @@
  *
  * Version 1.0
  *
- * Date 16.09.11
  *
  * Copyright Softserve
  */

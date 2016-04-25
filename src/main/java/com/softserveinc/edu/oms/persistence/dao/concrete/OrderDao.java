@@ -3,7 +3,6 @@
  *
  * Version 1.0
  *
- * 10.07.2011
  *
  * (c) Arthur Borisow arthur.borisow[at]gmail.com
  */
